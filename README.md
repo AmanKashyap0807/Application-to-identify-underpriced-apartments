@@ -54,6 +54,24 @@ from bs4 import BeautifulSoup
 
 Repeating the above steps for different pages we will get our data for model.
         
+
+# <p align="center">Preparing the Data</p>
+  
+Data preprocessing is very essential before further going for visualization and model building.
+
+
+
+## 🛠️ Tech Stack
+- [Pandas](https://pandas.pydata.org/)
+- [numpy](https://numpy.org/)
+- [RegularExpression](https://docs.python.org/3/library/re.html)
+
+    
+## 🧐 Steps
+- Filtering column for numerical values using regular expression
+- Dropping rows with none values using drop function
+- grouping data on the basis of same neighbourhood using groupby function
+- now further the visualization for the average rent will be made
         
         
     
